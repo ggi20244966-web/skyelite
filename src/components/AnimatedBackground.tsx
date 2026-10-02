@@ -36,7 +36,7 @@ export default function AnimatedBackground({ image, video }: AnimatedBackgroundP
           src={image}
           alt=""
           onLoad={() => setMediaLoaded(true)}
-          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+          className="absolute inset-0 w-full h-full object-cover transition-opacity-duration-1000"
           style={{ opacity: mediaLoaded ? 1 : 0 }}
         />
       ) : null}
